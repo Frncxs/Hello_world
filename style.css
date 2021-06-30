@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu Mono', monospace;
+}
+h1{
+    font-weight: 700;
+    font-size: 5rem;
+    margin-bottom: 0.25em;
+}
+#btn{
+    font-size: 1.5rem;
+    padding: 0.15em 0.5em;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solide black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+.container{
+    width: 80%;
+    max-width: 1024px;
+    height: 80vh;
+    margin: 10vh auto;
+    box-shadow: 6px 5px 12px 4px rgba(0,0,0,0.33);
+    -webkit-box-shadow: 6px 5px 12px 4px rgba(0,0,0,0.33);
+    -moz-box-shadow: 6px 5px 12px 4px rgba(0,0,0,0.33);
+}
+.text_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
